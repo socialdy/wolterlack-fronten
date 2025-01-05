@@ -35,8 +35,8 @@ export const ProductSlider = () => {
   };
 
   return (
-    <section className="py-20 bg-gray-light">
-      <div className="container">
+    <section className="py-20 bg-gray-light w-full">
+      <div className="max-w-[2000px] mx-auto px-8">
         <h2 className="text-4xl font-light text-center mb-12">Our Collections</h2>
         <div className="relative">
           <div className="flex gap-8">
