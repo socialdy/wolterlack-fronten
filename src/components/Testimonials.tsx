@@ -19,7 +19,7 @@ export const Testimonials = () => {
   return (
     <section className="py-20 bg-primary-darker text-white">
       <div className="container">
-        <h2 className="text-4xl font-light text-center mb-12">Recent Projects</h2>
+        <h2 className="text-4xl font-light text-center mb-12">Customer Reviews</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="bg-white/10 p-8 animate-fade-in">
