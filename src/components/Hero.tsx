@@ -14,7 +14,7 @@ export const Hero = () => {
       <div className="container relative z-10 text-white">
         <div className="max-w-2xl animate-fade-in">
           <h1 className="text-5xl md:text-6xl font-light mb-6">
-            Crafting Your Dream Kitchen
+            de Your Dream Kitchen
           </h1>
           <p className="text-xl mb-8 text-gray-200">
             Experience the perfect blend of design and functionality with our custom kitchen solutions.
