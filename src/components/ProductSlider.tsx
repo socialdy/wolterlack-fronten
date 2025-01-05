@@ -46,12 +46,15 @@ export const ProductSlider = () => {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-64 object-cover"
+                    className="w-full h-[600px] object-cover"
                   />
-                  <div className="p-6">
+                  <div className="p-8 text-center">
                     <h3 className="text-2xl font-light mb-2">{product.name}</h3>
                     <p className="text-gray mb-4">{product.description}</p>
-                    <Button variant="outline" className="hover:bg-primary hover:text-white">
+                    <Button 
+                      variant="outline" 
+                      className="hover:bg-primary hover:text-white"
+                    >
                       Learn More
                     </Button>
                   </div>
@@ -61,13 +64,13 @@ export const ProductSlider = () => {
           </div>
           <button
             onClick={prev}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 bg-white p-2 rounded-full shadow-lg"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 bg-white p-2 shadow-lg"
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
           <button
             onClick={next}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 bg-white p-2 rounded-full shadow-lg"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 bg-white p-2 shadow-lg"
           >
             <ChevronRight className="w-6 h-6" />
           </button>

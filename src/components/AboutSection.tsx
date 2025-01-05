@@ -16,7 +16,7 @@ export const AboutSection = () => {
             <img
               src="https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=2968&auto=format&fit=crop"
               alt="Craftsmanship"
-              className="rounded-lg shadow-xl"
+              className="shadow-xl"
             />
           </div>
           <div className="animate-fade-in">

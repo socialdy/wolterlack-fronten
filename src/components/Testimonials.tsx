@@ -22,11 +22,11 @@ export const Testimonials = () => {
         <h2 className="text-4xl font-light text-center mb-12">Recent Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="bg-white/10 p-8 rounded-lg animate-fade-in">
+            <div key={testimonial.id} className="bg-white/10 p-8 animate-fade-in">
               <img
                 src={testimonial.image}
                 alt={testimonial.name}
-                className="w-full h-64 object-cover rounded-lg mb-6"
+                className="w-full h-64 object-cover mb-6"
               />
               <p className="text-lg mb-4">"{testimonial.quote}"</p>
               <div>
