@@ -10,34 +10,34 @@ export const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      role: "Homeowner",
-      quote: "The attention to detail and quality of work exceeded our expectations. The team was professional and completed the project on time.",
+      name: "Stefan Müller",
+      role: "Privatkunde",
+      quote: "Die neuen Gasherde von Foster haben unser Kochen revolutioniert! Die High Efficiency Brenner reduzieren den Gasverbrauch um bis zu 25% und bieten gleichzeitig bis zu 30% mehr Leistung. Einfach beeindruckend.",
     },
     {
       id: 2,
-      name: "Michael Chen",
-      role: "Property Developer",
-      quote: "Foster Kitchens delivered exceptional results for our luxury development project. Their expertise in modern design truly shows.",
+      name: "Laura Schmitt",
+      role: "Immobilienentwicklerin",
+      quote: "Foster Küchen haben nicht nur durch ihr modernes Design überzeugt, sondern auch durch ihre Energieeffizienz. Die neuesten Geräte erreichen die höchste Energieklasse A+++, was sie perfekt für unsere Luxusimmobilien macht.",
     },
     {
       id: 3,
-      name: "Emma Thompson",
-      role: "Interior Designer",
-      quote: "Working with Foster Kitchens was a pleasure. Their innovative approach to kitchen design brings fresh perspectives to every project.",
+      name: "Janine Becker",
+      role: "Innenarchitektin",
+      quote: "Die elegante Verarbeitung des Stahls in den Foster Küchen ist unverkennbar. Die Materialien sind nicht nur ästhetisch, sondern auch sehr pflegeleicht – das ist ein perfektes Zusammenspiel von Funktionalität und Design.",
     },
     {
       id: 4,
-      name: "David Miller",
-      role: "Restaurant Owner",
-      quote: "The commercial kitchen they designed for us perfectly balances functionality and aesthetics. Couldn't be happier with the results.",
+      name: "Maximilian Schwarz",
+      role: "Restaurantbesitzer",
+      quote: "Foster hat uns eine kommerzielle Küche geliefert, die sowohl funktional als auch ästhetisch ansprechend ist. Die Geräte bieten uns hohe Leistung bei niedrigerem Energieverbrauch, was in unserem Betrieb einen großen Unterschied macht.",
     },
   ];
 
   return (
-    <section className="py-20 bg-primary-darker text-white">
+    <section className="py-20 bg-primary-darker text-white" id="referenzen">
       <div className="container max-w-6xl mx-auto px-4">
-        <h2 className="text-4xl font-light text-center mb-16">Customer Reviews</h2>
+        <h2 className="text-4xl font-light text-center mb-16 uppercase">Referenzen</h2>
         <Carousel
           opts={{
             align: "start",
@@ -60,8 +60,8 @@ export const Testimonials = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="border-0 -left-12 hover:bg-white/20" />
-          <CarouselNext className="border-0 -right-12 hover:bg-white/20" />
+          <CarouselPrevious className="border-0 -left-12 hover:bg-white/20 text-black" />
+          <CarouselNext className="border-0 -right-12 hover:bg-white/20 text-black" />
         </Carousel>
       </div>
     </section>

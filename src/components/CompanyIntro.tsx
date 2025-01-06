@@ -1,26 +1,20 @@
 export const CompanyIntro = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white" id="ueber-foster">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="mb-10">
-            <img 
-              src="/foster-logo.png" 
-              alt="Foster Kitchens Logo" 
-              className="mx-auto h-20 w-auto"
-            />
-          </div>
-          <h2 className="text-4xl font-light mb-8">About Foster</h2>
+        <div className="flex flex-col items-center text-center">
+
+          <img 
+            src="src/images/fosterlogo.png" 
+            alt="Foster Kitchens Logo" 
+            className="h-10 w-auto"
+          />
+          
+        </div>
+
+        <div className="mt-6 text-center">
           <p className="text-gray text-lg leading-relaxed mb-6">
-            Since 1990, Foster Kitchens has been at the forefront of innovative kitchen design, 
-            transforming spaces into beautiful, functional environments where memories are made 
-            and shared. Our journey began with a simple vision: to create kitchens that perfectly 
-            blend form and function, reflecting the unique personality of each homeowner.
-          </p>
-          <p className="text-gray text-lg leading-relaxed">
-            Today, we continue to push the boundaries of kitchen design, combining traditional 
-            craftsmanship with modern innovation. Every Foster kitchen is a testament to our 
-            commitment to quality, creativity, and customer satisfaction.
+            Foster ist eine italienische Marke, die weltweit in über 50 Ländern vertreten ist. Gegründet im Jahr 1973, steht Foster für höchste Handwerkskunst, modernes Design und eine starke Verbindung zur italienischen Tradition. Mit vier hochspezialisierten Produktionsstätten und einem integrierten Ansatz bietet Foster innovative Küchenlösungen, die Technologie, Nachhaltigkeit und Ästhetik vereinen.
           </p>
         </div>
       </div>

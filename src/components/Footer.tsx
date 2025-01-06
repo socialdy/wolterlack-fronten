@@ -6,51 +6,85 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
-            <h3 className="text-xl font-light mb-6">Foster Kitchens</h3>
+          <a href="https://premium-brand-store.com" className="">
+            <img
+              src="/src/images/ME-Logo-white_v2.png" // Ersetze dies durch den tatsächlichen Pfad zu deinem Logo
+              alt="Foster Kitchens Logo"
+              className="h-16 mb-3" // Passe die Größe des Logos an
+            />
+          </a>
             <p className="text-gray-300">
-              Crafting exceptional kitchen spaces since 1990.
+            Hochwertige Einbauküchen von Beeck, innovative Küchengeräte von Miele sowie exklusive Arbeitsplatten und stilvolle Ausstattung – alles für Ihre Traumküche.
             </p>
           </div>
           <div>
-            <h4 className="text-lg font-light mb-4">Quick Links</h4>
+            <h4 className="text-lg font-light mb-4">Quicklinks</h4>
             <ul className="space-y-3">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-white transition-colors">
-                  Collections
-                </Link>
+                <a href="https://premium-brand-store.com/kuechen" className="text-gray-300 hover:text-white transition-colors">
+                  Küchen
+                </a>
               </li>
               <li>
-                <Link to="/" className="text-gray-300 hover:text-white transition-colors">
-                  About Us
-                </Link>
+                <a href="https://premium-brand-store.com/abverkauf" className="text-gray-300 hover:text-white transition-colors">
+                  Abverkauf
+                </a>
               </li>
               <li>
-                <Link to="/" className="text-gray-300 hover:text-white transition-colors">
-                  Projects
-                </Link>
+                <a href="https://premium-brand-store.com/ausstattung" className="text-gray-300 hover:text-white transition-colors">
+                  Ausstattung
+                </a>
+              </li>
+              <li>
+                <a href="https://premium-brand-store.com/bad" className="text-gray-300 hover:text-white transition-colors">
+                  Bad
+                </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-light mb-4">Contact</h4>
+            <h4 className="text-lg font-light mb-4">Kontakt</h4>
             <ul className="space-y-3 text-gray-300">
-              <li>123 Design Street</li>
-              <li>New York, NY 10001</li>
-              <li>+1 (555) 123-4567</li>
-              <li>info@fosterkitchens.com</li>
+              <li>Lamprechtshausener Bundesstraße 1</li>
+              <li>5101 Bergheim</li>
+              <li><a href="tel:+43 662 452535" className="text-gray-300 hover:text-white transition-colors">+43 662 452535</a></li>
+              <li>
+                <a href="mailto:me@kuechenstudio-salzburg.com" className="text-gray-300 hover:text-white transition-colors">
+                  me@kuechenstudio-salzburg.com
+                </a>
+              </li>
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-light mb-4">Hours</h4>
+            <h4 className="text-lg font-light mb-4">Öffnungszeiten</h4>
             <ul className="space-y-3 text-gray-300">
-              <li>Mon - Fri: 9:00 - 18:00</li>
-              <li>Saturday: 10:00 - 17:00</li>
-              <li>Sunday: Closed</li>
+              <li>Mo – Fr: 10:00 – 17:00 Uhr</li>
+              <li>Sa – So: Geschlossen</li>
             </ul>
           </div>
         </div>
+
+        {/* Rechtliche Links */}
         <div className="mt-16 pt-8 border-t border-white/10 text-center text-gray-300">
-          <p>&copy; 2024 Foster Kitchens. All rights reserved.</p>
+          <ul className="space-y-3">
+            <li>
+              <a href="https://premium-brand-store.com/impressum" className="text-gray-300 hover:text-white transition-colors">
+                Impressum
+              </a>
+            </li>
+            <li>
+              <a href="https://premium-brand-store.com/datenschutz" className="text-gray-300 hover:text-white transition-colors">
+                Datenschutz
+              </a>
+            </li>
+            <li>
+              <a href="https://premium-brand-store.com/agb" className="text-gray-300 hover:text-white transition-colors">
+                AGB
+              </a>
+            </li>
+          </ul>
+          <p className="mt-6">© 2025 Küchenstudio Bergheim. Alle Rechte vorbehalten.</p>
+          <p className="text-sm mt-2">Developed by <a className="font-semibold" href="https://socialdynamics.agency">Social Dynamics</a></p>
         </div>
       </div>
     </footer>
