@@ -8,17 +8,17 @@ import Index from "./pages/Index";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
+  <BrowserRouter>
     <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
+      <QueryClientProvider client={queryClient}>
         <Routes>
           <Route path="/" element={<Index />} />
         </Routes>
-      </BrowserRouter>
+        <Toaster />
+        <Sonner />
+      </QueryClientProvider>
     </TooltipProvider>
-  </QueryClientProvider>
+  </BrowserRouter>
 );
 
 export default App;
