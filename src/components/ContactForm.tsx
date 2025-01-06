@@ -5,6 +5,9 @@ import { useToast } from "@/components/ui/use-toast";
 import { Calendar } from "@/components/ui/calendar";
 import { useState } from "react";
 import { format } from "date-fns";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { cn } from "@/lib/utils";
+import { CalendarIcon } from "lucide-react";
 
 export const ContactForm = () => {
   const { toast } = useToast();
@@ -37,13 +40,29 @@ export const ContactForm = () => {
           <Input placeholder="Phone Number" required />
           <div className="space-y-2">
             <label className="block text-left text-sm text-gray">Select Preferred Date</label>
-            <Calendar
-              mode="single"
-              selected={date}
-              onSelect={setDate}
-              className="border-0 bg-background"
-              disabled={(date) => date < new Date()}
-            />
+            <Popover>
+              <PopoverTrigger asChild>
+                <Button
+                  variant={"outline"}
+                  className={cn(
+                    "w-full justify-start text-left font-normal",
+                    !date && "text-muted-foreground"
+                  )}
+                >
+                  <CalendarIcon className="mr-2 h-4 w-4" />
+                  {date ? format(date, "PPP") : <span>Pick a date</span>}
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent className="w-auto p-0" align="start">
+                <Calendar
+                  mode="single"
+                  selected={date}
+                  onSelect={setDate}
+                  initialFocus
+                  disabled={(date) => date < new Date()}
+                />
+              </PopoverContent>
+            </Popover>
           </div>
           <Textarea
             placeholder="Tell us about your project"
