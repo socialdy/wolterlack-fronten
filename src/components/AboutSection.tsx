@@ -14,8 +14,8 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="public/images/foster-kitchen.png"
-              alt="Foster-Kuechen"
+              src="/images/foster-kitchen.png"
+              alt="Foster-public"
               className="shadow-xl h-full w-full"
             />
           </div>

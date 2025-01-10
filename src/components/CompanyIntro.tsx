@@ -5,7 +5,7 @@ export const CompanyIntro = () => {
         <div className="flex flex-col items-center text-center">
 
           <img 
-            src="public/images/fosterlogo.png" 
+            src="/images/fosterlogo.png" 
             alt="Foster Kitchens Logo" 
             className="h-10 w-auto"
           />

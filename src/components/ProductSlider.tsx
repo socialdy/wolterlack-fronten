@@ -7,61 +7,61 @@ const products = [
   {
     id: 1,
     name: "Edelstahlspülen",
-    image: "public/images/edelstahlspühle.jpg", // Ersetze dies durch das echte Bild
+    image: "/images/edelstahlspühle.jpg", // Ersetze dies durch das echte Bild
     description: "Robuste und pflegeleichte Edelstahlspülen, die Ihre Küche funktional und stilvoll bereichern. Perfekt für moderne Haushalte, die Qualität und Langlebigkeit schätzen.",
   },
   {
     id: 2,
     name: "Mischbatterien",
-    image: "public/images/mischbatterien.jpg", // Ersetze dies durch das echte Bild
+    image: "/images/mischbatterien.jpg", // Ersetze dies durch das echte Bild
     description: "Elegante Mischbatterien für Ihre Küche: Hohe Funktionalität trifft auf modernes Design. Perfekt für anspruchsvolle Haushalte, die Wert auf Komfort und Stil legen.",
   },
   {
     id: 3,
     name: "Induktionskochfelder",
-    image: "public/images/induktionskochfelder.jpg", // Ersetze dies durch das echte Bild
+    image: "/images/induktionskochfelder.jpg", // Ersetze dies durch das echte Bild
     description: "Energieeffiziente Induktionskochfelder für präzises Kochen mit schneller Hitzeentwicklung und gleichmäßiger Temperaturverteilung – ideal für Ihre moderne Küche.",
   },
   {
     id: 4,
     name: "Gaskochfelder",
-    image: "public/images/gaskochfolder.jpg", // Ersetze dies durch das echte Bild
+    image: "/images/gaskochfolder.jpg", // Ersetze dies durch das echte Bild
     description: "Professionelle Gaskochfelder für passionierte Köche, die das authentische Kocherlebnis mit präziser Flammenkontrolle schätzen. Ideal für schnelle und gleichmäßige Erwärmung.",
   },
   {
     id: 5,
     name: "Dunstabzugshauben",
-    image: "public/images/dunstabzugshaube.jpg", // Ersetze dies durch das echte Bild
+    image: "/images/dunstabzugshaube.jpg", // Ersetze dies durch das echte Bild
     description: "Effiziente Dunstabzugshauben, die unangenehme Dämpfe und Gerüche zuverlässig entfernen und gleichzeitig Ihre Küche mit stilvollem Design ergänzen.",
   },
   {
     id: 6,
     name: "Backöfen und Zubehör",
-    image: "public/images/backofen.jpg", // Ersetze dies durch das echte Bild
+    image: "/images/backofen.jpg", // Ersetze dies durch das echte Bild
     description: "Innovative Backöfen mit fortschrittlichen Funktionen und hochwertigem Zubehör, die das Backen und Kochen zu einem mühelosen und genussvollen Erlebnis machen.",
   },
   {
     id: 7,
     name: "Outdoor",
-    image: "public/images/outdoor_v2.jpg", // Ersetze dies durch das echte Bild
+    image: "/images/outdoor_v2.jpg", // Ersetze dies durch das echte Bild
     description: "Küchengeräte für den Outdoor-Bereich: Robuste, wetterfeste Geräte, die Ihnen ermöglichen, auch im Freien leckere Mahlzeiten zuzubereiten – perfekt für Grillabende und Outdoor-Events.",
   },
   {
     id: 8,
     name: "Aufsatzgerät und Edelstahl-Arbeitsplatte",
-    image: "public/images/aufsatzgerät.jpg", // Ersetze dies durch das echte Bild
+    image: "/images/aufsatzgerät.jpg", // Ersetze dies durch das echte Bild
     description: "Praktische Aufsatzgeräte und elegante Edelstahl-Arbeitsplatten, die nicht nur funktional sind, sondern auch einen modernen Touch in Ihre Küche bringen.",
   },
   {
     id: 9,
     name: "Geschirrspüler",
-    image: "public/images/geschirrspüler.jpg", // Ersetze dies durch das echte Bild
+    image: "/images/geschirrspüler.jpg", // Ersetze dies durch das echte Bild
     description: "Hightech-Geschirrspüler, die mit modernster Technologie ausgestattet sind, um Ihnen eine mühelose und effiziente Reinigung zu ermöglichen. Für glänzende Sauberkeit ohne Aufwand.",
   },
   {
     id: 10,
     name: "Steckdosen",
-    image: "public/images/steckdosen.jpg", // Ersetze dies durch das echte Bild
+    image: "/images/steckdosen.jpg", // Ersetze dies durch das echte Bild
     description: "Hightech-Geschirrspüler, die mit modernster Technologie ausgestattet sind, um Ihnen eine mühelose und effiziente Reinigung zu ermöglichen. Für glänzende Sauberkeit ohne Aufwand.",
   },
 ];
