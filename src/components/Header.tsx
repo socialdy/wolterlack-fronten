@@ -15,7 +15,7 @@ export const Header = () => {
           {/* Logo Section */}
           <a href="/" className="flex items-center">
             <img
-              src="/src/images/logo_v21.png" // Ersetze dies durch den tatsächlichen Pfad zu deinem Logo
+              src="/public/images/logo_v21.png" // Ersetze dies durch den tatsächlichen Pfad zu deinem Logo
               alt="Foster Kitchens Logo"
               className="h-17" // Passe die Größe des Logos an
             />
