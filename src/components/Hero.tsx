@@ -17,9 +17,10 @@ export const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-white">
         <div className="max-w-7xl animate-fade-in">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light mb-6 uppercase">
-  Exklusive Küchenlösungen von Foster
+        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light mb-6 uppercase max-w-screen-lg break-words">
+        Exklusive Küchenlösungen von Foster
 </h1>
+
 <p className="text-lg md:text-xl text-gray-200 font-bold"><span className="text-lg md:text-xl mb-4 text-gray-200 font-[200]">Entdecken Sie **Foster**-Designs im Premium Brand Store in **Bergheim** –</span>
 <br></br>Qualität und Innovation für Ihre Traumküche
 </p>

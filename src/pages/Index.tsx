@@ -12,14 +12,12 @@ const Index = () => {
     <div className="min-h-screen font-['Montserrat'] bg-white">
       <Header />
       <Hero />
-      <div className="overflow-hidden">
         <ProductSlider />
         <CompanyIntro />
         <AboutSection />
         <Testimonials />
         <ContactForm />
         <Footer />
-      </div>
     </div>
   );
 };
