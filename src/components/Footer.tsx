@@ -8,7 +8,7 @@ export const Footer = () => {
           <div>
           <a href="https://premium-brand-store.com" className="">
             <img
-              src="/public/images/ME-Logo-white_v2.png" // Ersetze dies durch den tatsächlichen Pfad zu deinem Logo
+              src="/images/ME-Logo-white_v2.png" // Ersetze dies durch den tatsächlichen Pfad zu deinem Logo
               alt="Foster Kitchens Logo"
               className="h-16 mb-3" // Passe die Größe des Logos an
             />
