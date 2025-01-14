@@ -53,6 +53,11 @@ export const Footer = () => {
                   me@kuechenstudio-salzburg.com
                 </a>
               </li>
+              <li>
+                <a href="premium-brand-store.com" className="text-gray-300 hover:text-white transition-colors">
+                  Website
+                </a>
+              </li>
             </ul>
           </div>
           <div>
