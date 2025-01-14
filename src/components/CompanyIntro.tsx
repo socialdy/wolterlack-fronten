@@ -6,7 +6,7 @@ export const CompanyIntro = () => {
 
           <img 
             src="/images/fosterlogo.png" 
-            alt="Foster Kitchens Logo" 
+            alt="Foster Spa Logo" 
             className="h-10 w-auto"
           />
           

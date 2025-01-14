@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src="/images/hero_background.png"
-          alt="Luxury Kitchen"
+          alt="Foster Küche"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40" />
@@ -26,7 +26,7 @@ export const Hero = () => {
 </p>
 
             <a href="/#beratung">
-            <Button className="bg-primary hover:bg-primary-dark text-white px-6 py-3 text-lg mt-9">
+            <Button className="bg-primary hover:bg-primary-dark text-white px-6 py-3  mt-9">
             Beratungstermin buchen
           </Button>
             </a>

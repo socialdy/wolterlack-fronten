@@ -13,34 +13,52 @@ export const Header = () => {
       <div className="container mx-auto px-6 md:px-12">
         <nav className="flex items-center justify-between h-20">
           {/* Logo Section */}
-          <a href="/" className="flex items-center">
-            <img
-              src="/images/logo_v21.png" // Ersetze dies durch den tatsächlichen Pfad zu deinem Logo
-              alt="Foster Kitchens Logo"
-              className="h-17" // Passe die Größe des Logos an
-            />
-          </a>
+          <div className="flex items-center space-x-2">
+  <a href="/" className="h-6 sm:h-8">
+    <img
+      src="/images/fosterlogo.png"
+      alt="Foster Spa Logo"
+      className="h-full"
+    />
+  </a>
+  <a href="https://kuechenstudio-bergheim.at" className="h-11 sm:h-14">
+    <img
+      src="/images/me_logo_black.png"
+      alt="Küchenstudio Bergheim Logo"
+      className="h-full"
+    />
+  </a>
+</div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            <a href="#produkte" className="text-gray-700 hover:text-gray-900 transition-colors">
+          <div className="hidden lg:flex items-center gap-8">
+            <a
+              href="#produkte"
+              className="text-gray-700 hover:text-gray-900 hover:underline transition-colors"
+            >
               Produkte
             </a>
-            <a href="#ueber-foster" className="text-gray-700 hover:text-gray-900 transition-colors">
+            <a
+              href="#ueber-foster"
+              className="text-gray-700 hover:text-gray-900 hover:underline transition-colors"
+            >
               Über Foster
             </a>
-            <a href="/#referenzen" className="text-gray-700 hover:text-gray-900 transition-colors">
+            <a
+              href="/#referenzen"
+              className="text-gray-700 hover:text-gray-900 hover:underline transition-colors"
+            >
               Referenzen
             </a>
             <a href="/#beratung">
-              <Button className="bg-[#485959] hover:bg-[#384848] text-white">
+              <Button className="bg-[#485959] hover:bg-[#384848] text-white transition-transform ">
                 Jetzt Beratung anfordern
               </Button>
             </a>
           </div>
 
           {/* Hamburger Menu Icon */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={toggleMobileMenu}
               className="text-gray-700 hover:text-gray-900 focus:outline-none"
@@ -65,33 +83,30 @@ export const Header = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-white text-gray-700 border-t border-gray-100 shadow-md">
+          <div className="lg:hidden bg-white text-gray-700 border-t border-gray-100 shadow-md">
             <div className="flex flex-col items-start gap-4 py-4 pl-6">
               <a
                 href="/#produkte"
-                className="hover:text-gray-900 transition-colors"
+                className="hover:text-gray-900 hover:underline transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Produkte
               </a>
               <a
                 href="/#ueber-foster"
-                className="hover:text-gray-900 transition-colors"
+                className="hover:text-gray-900 hover:underline transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Über Foster
               </a>
               <a
                 href="/#referenzen"
-                className="hover:text-gray-900 transition-colors"
+                className="hover:text-gray-900 hover:underline transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Referenzen
               </a>
-              <a
-                href="/#beratung"
-                onClick={toggleMobileMenu}
-              >
+              <a href="/#beratung" onClick={toggleMobileMenu}>
                 <Button className="bg-[#485959] hover:bg-[#384848] text-white">
                   Jetzt Beratung anfordern
                 </Button>

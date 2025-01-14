@@ -13,11 +13,13 @@ export const AboutSection = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
+            <a href="https://fosterspa.com">
             <img
               src="/images/foster-kitchen.png"
-              alt="Foster-public"
+              alt="Foster Spa Logo"
               className="shadow-xl h-full w-full"
             />
+            </a>
           </div>
           <div className="animate-fade-in">
             <h2 className="text-4xl font-light mb-6">Warum Foster Küchen wählen?</h2>
