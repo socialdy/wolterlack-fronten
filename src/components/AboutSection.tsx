@@ -22,7 +22,7 @@ export const AboutSection = () => {
             </a>
           </div>
           <div className="animate-fade-in">
-            <h2 className="ext-4xl font-light uppercase mb-6">Warum Foster Küchen wählen?</h2>
+            <h2 className="text-4xl font-light uppercase mb-6">Warum Foster Küchen wählen?</h2>
             <p className="text-gray mb-8">
               Mit über drei Jahrzehnten Erfahrung haben wir die Kunst perfektioniert, außergewöhnliche Küchen zu kreieren, die beeindruckendes Design mit praktischer Funktionalität verbinden.
             </p>
