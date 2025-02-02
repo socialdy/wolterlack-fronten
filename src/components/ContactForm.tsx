@@ -7,7 +7,7 @@ import { useEffect } from "react";
 export const ContactForm = () => {
   useEffect(() => {
     (async function () {
-      const cal = await getCalApi({ namespace: "15min" });
+      const cal = await getCalApi({ namespace: "30min" }); // Namespace auf 30min geändert
       cal("ui", {
         cssVarsPerTheme: {
           light: { "cal-brand": "#1E1E1E" },
@@ -28,8 +28,8 @@ export const ContactForm = () => {
             Lassen Sie uns Ihre Traumküche planen! Füllen Sie das Formular aus und buchen Sie einen Termin, der Ihnen passt.
           </p>
           <Cal
-            namespace="15min"
-            calLink="kuechenstudiobergheim/15min"
+            namespace="30min" // Namespace auf 30min geändert
+            calLink="kuechenstudiobergheim/30min" // calLink auf 30min geändert
             style={{ width: "100%", height: "100%", overflow: "scroll" }}
             config={{ layout: "month_view" }}
           ></Cal>
