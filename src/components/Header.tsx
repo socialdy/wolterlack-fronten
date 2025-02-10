@@ -16,7 +16,7 @@ export const Header = () => {
   <a href="/" className="h-6 sm:h-8">
     <img
       src="/images/wf_logo.png"
-      alt="Foster Spa Logo"
+      alt="Wolter Lackfronten Logo"
       className="h-full"
     />
   </a>
@@ -38,10 +38,10 @@ export const Header = () => {
               Produkte
             </a>
             <a
-              href="#ueber-foster"
+              href="#ueber-wolter-lackfronten"
               className="hover:text-[#469CE9]/80"
             >
-              Über Foster
+              Über Wolter Lackfronten
             </a>
             <a
               href="/#referenzen"
@@ -90,11 +90,11 @@ export const Header = () => {
                 Produkte
               </a>
               <a
-                href="/#ueber-foster"
+                href="/#ueber-wolter-lackfronten"
                 className="hover:text-[#469CE9]/80"
                 onClick={toggleMobileMenu}
               >
-                Über Foster
+                Über Wolter Lackfronten
               </a>
               <a
                 href="/#referenzen"
