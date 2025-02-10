@@ -2,67 +2,67 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#485959] text-white py-16">
+    <footer className="bg-[#ffffff] text-white py-16">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
           <a href="https://kuechenstudio-bergheim.at" className="">
             <img
-              src="/images/me_logo.png" // Ersetze dies durch den tatsächlichen Pfad zu deinem Logo
+              src="/images/me_logo_black.png" // Ersetze dies durch den tatsächlichen Pfad zu deinem Logo
               alt="Küchenstudio Bergheim Logo"
               className="h-16 mb-3" // Passe die Größe des Logos an
             />
           </a>
-            <p className="text-gray-300">
+            <p className="">
             Hochwertige Einbauküchen von Beeck, innovative Küchengeräte von Miele sowie exklusive Arbeitsplatten und stilvolle Ausstattung – alles für Ihre Traumküche.
             </p>
           </div>
           <div>
-            <h4 className="text-lg font-light mb-4">Quicklinks</h4>
+            <h4 className="mb-4">Quicklinks</h4>
             <ul className="space-y-3">
               <li>
-                <a href="https://kuechenstudio-bergheim.at/kuechen" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://kuechenstudio-bergheim.at/kuechen" className="">
                   Küchen
                 </a>
               </li>
               <li>
-                <a href="https://kuechenstudio-bergheim.at/abverkauf" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://kuechenstudio-bergheim.at/abverkauf" className="">
                   Abverkauf
                 </a>
               </li>
               <li>
-                <a href="https://kuechenstudio-bergheim.at/ausstattung" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://kuechenstudio-bergheim.at/ausstattung" className="s">
                   Ausstattung
                 </a>
               </li>
               <li>
-                <a href="https://kuechenstudio-bergheim.at/bad" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://kuechenstudio-bergheim.at/bad" className="">
                   Bad
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-light mb-4">Kontakt</h4>
-            <ul className="space-y-3 text-gray-300">
+            <h4 className=" mb-4">Kontakt</h4>
+            <ul className="space-y-3">
               <li>Lamprechtshausener Bundesstraße 1</li>
               <li>5101 Bergheim</li>
-              <li><a href="tel:+43 662 452535" className="text-gray-300 hover:text-white transition-colors">+43 662 452535</a></li>
+              <li><a href="tel:+43 662 452535" className="">+43 662 452535</a></li>
               <li>
-                <a href="mailto:me@kuechenstudio-bergheim.at" className="text-gray-300 hover:text-white transition-colors">
+                <a href="mailto:me@kuechenstudio-bergheim.at" className="">
                   me@kuechenstudio-bergheim.at
                 </a>
               </li>
               <li>
-                <a href="https://kuechenstudio-bergheim.at" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://kuechenstudio-bergheim.at" className="">
                 www.kuechenstudio-bergheim.at
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-light mb-4">Öffnungszeiten</h4>
-            <ul className="space-y-3 text-gray-300">
+            <h4 className="mb-4">Öffnungszeiten</h4>
+            <ul className="space-y-3">
               <li>Mo – Fr: 10:00 – 17:00 Uhr</li>
               <li>Sa – So: Geschlossen</li>
             </ul>
@@ -70,20 +70,20 @@ export const Footer = () => {
         </div>
 
         {/* Rechtliche Links */}
-        <div className="mt-16 pt-8 border-t border-white/10 text-center text-gray-300">
+        <div className="mt-16 pt-8 border-t border-[#2578C1] text-center">
           <ul className="space-y-3">
             <li>
-              <a href="https://kuechenstudio-bergheim.at/impressum" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://kuechenstudio-bergheim.at/impressum" className="">
                 Impressum
               </a>
             </li>
             <li>
-              <a href="https://kuechenstudio-bergheim.at/datenschutz" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://kuechenstudio-bergheim.at/datenschutz" className="">
                 Datenschutz
               </a>
             </li>
             <li>
-              <a href="https://kuechenstudio-bergheim.at/agb" className="text-gray-300 hover:text-white transition-colors">
+              <a href="https://kuechenstudio-bergheim.at/agb" className="">
                 AGB
               </a>
             </li>

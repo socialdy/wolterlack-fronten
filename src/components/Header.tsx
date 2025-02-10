@@ -15,7 +15,7 @@ export const Header = () => {
           <div className="flex items-center space-x-2">
   <a href="/" className="h-6 sm:h-8">
     <img
-      src="/images/fosterlogo.png"
+      src="/images/wf_logo.png"
       alt="Foster Spa Logo"
       className="h-full"
     />
@@ -33,26 +33,24 @@ export const Header = () => {
           <div className="hidden lg:flex items-center gap-8">
             <a
               href="#produkte"
-              className="text-gray-700 hover:text-gray-900 hover:underline transition-colors"
+              className="hover:text-[#469CE9]/80"
             >
               Produkte
             </a>
             <a
               href="#ueber-foster"
-              className="text-gray-700 hover:text-gray-900 hover:underline transition-colors"
+              className="hover:text-[#469CE9]/80"
             >
               Über Foster
             </a>
             <a
               href="/#referenzen"
-              className="text-gray-700 hover:text-gray-900 hover:underline transition-colors"
+              className="hover:text-[#469CE9]/80"
             >
               Referenzen
             </a>
-            <a href="/#beratung">
-              <Button className="bg-[#485959] hover:bg-[#384848] text-white transition-transform ">
+            <a href="/#beratung" className="hover:text-[#469CE9]/80">
                 Jetzt Beratung anfordern
-              </Button>
             </a>
           </div>
 
@@ -60,7 +58,7 @@ export const Header = () => {
           <div className="lg:hidden">
             <button
               onClick={toggleMobileMenu}
-              className="text-gray-700 hover:text-gray-900 focus:outline-none"
+              className="text[#469CE9] hover:text-[#469CE9]/80 focus:outline-none"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,29 +84,27 @@ export const Header = () => {
             <div className="flex flex-col items-start gap-4 py-4 pl-6">
               <a
                 href="/#produkte"
-                className="hover:text-gray-900 hover:underline transition-colors"
+                className="hover:text-[#469CE9]/80"
                 onClick={toggleMobileMenu}
               >
                 Produkte
               </a>
               <a
                 href="/#ueber-foster"
-                className="hover:text-gray-900 hover:underline transition-colors"
+                className="hover:text-[#469CE9]/80"
                 onClick={toggleMobileMenu}
               >
                 Über Foster
               </a>
               <a
                 href="/#referenzen"
-                className="hover:text-gray-900 hover:underline transition-colors"
+                className="hover:text-[#469CE9]/80"
                 onClick={toggleMobileMenu}
               >
                 Referenzen
               </a>
-              <a href="/#beratung" onClick={toggleMobileMenu}>
-                <Button className="bg-[#485959] hover:bg-[#384848] text-white">
+              <a href="/#beratung" onClick={toggleMobileMenu} className="hover:text-[#469CE9]/80">
                   Jetzt Beratung anfordern
-                </Button>
               </a>
             </div>
           </div>

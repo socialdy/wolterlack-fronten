@@ -6,65 +6,43 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const products = [
   {
     id: 1,
-    name: "Edelstahlspülen",
-    image: "/images/edelstahlspühle.jpg", // Ersetze dies durch das echte Bild
-    description: "Robuste und pflegeleichte Edelstahlspülen, die Ihre Küche funktional und stilvoll bereichern. Perfekt für moderne Haushalte, die Qualität und Langlebigkeit schätzen.",
+    name: "METALL",
+    image: "/images/metall.png", 
+    description: "Burnished Brush",
   },
   {
     id: 2,
-    name: "Mischbatterien",
-    image: "/images/mischbatterien.jpg", // Ersetze dies durch das echte Bild
-    description: "Elegante Mischbatterien für Ihre Küche: Hohe Funktionalität trifft auf modernes Design. Perfekt für anspruchsvolle Haushalte, die Wert auf Komfort und Stil legen.",
+    name: "OSLO",
+    image: "/images/oslo.png", 
+    description: "Griffe aus Edelstahl, Lack und Glas – Griffausschnitt farbig wählbar",
   },
   {
     id: 3,
-    name: "Induktionskochfelder",
-    image: "/images/induktionskochfelder.jpg", // Ersetze dies durch das echte Bild
-    description: "Energieeffiziente Induktionskochfelder für präzises Kochen mit schneller Hitzeentwicklung und gleichmäßiger Temperaturverteilung – ideal für Ihre moderne Küche.",
+    name: "GROOVE",
+    image: "/images/groove.png", 
+    description: "Lineare Struktur – ein Spiel mit Licht und Schatten",
   },
   {
     id: 4,
-    name: "Gaskochfelder",
-    image: "/images/gaskochfolder.jpg", // Ersetze dies durch das echte Bild
-    description: "Professionelle Gaskochfelder für passionierte Köche, die das authentische Kocherlebnis mit präziser Flammenkontrolle schätzen. Ideal für schnelle und gleichmäßige Erwärmung.",
+    name: "SIENA",
+    image: "/images/siena.png", 
+    description: "Moderne Landhausfronten – eine zeitgemäße Variante traditioneller Landhausstil-Architektur",
   },
   {
     id: 5,
-    name: "Dunstabzugshauben",
-    image: "/images/dunstabzugshaube.jpg", // Ersetze dies durch das echte Bild
-    description: "Effiziente Dunstabzugshauben, die unangenehme Dämpfe und Gerüche zuverlässig entfernen und gleichzeitig Ihre Küche mit stilvollem Design ergänzen.",
+    name: "STONE-VENEER",
+    image: "/images/stone-veneer.png", 
+    description: "Ein Hauch von Stein – jedes Blatt ein Unikat",
   },
   {
     id: 6,
-    name: "Backöfen und Zubehör",
-    image: "/images/backofen.jpg", // Ersetze dies durch das echte Bild
-    description: "Innovative Backöfen mit fortschrittlichen Funktionen und hochwertigem Zubehör, die das Backen und Kochen zu einem mühelosen und genussvollen Erlebnis machen.",
-  },
-  {
-    id: 7,
-    name: "Outdoor",
-    image: "/images/outdoor_v2.jpg", // Ersetze dies durch das echte Bild
-    description: "Küchengeräte für den Outdoor-Bereich: Robuste, wetterfeste Geräte, die Ihnen ermöglichen, auch im Freien leckere Mahlzeiten zuzubereiten – perfekt für Grillabende und Outdoor-Events.",
-  },
-  {
-    id: 8,
-    name: "Aufsatzgerät und Edelstahl-Arbeitsplatte",
-    image: "/images/aufsatzgerät.jpg", // Ersetze dies durch das echte Bild
-    description: "Praktische Aufsatzgeräte und elegante Edelstahl-Arbeitsplatten, die nicht nur funktional sind, sondern auch einen modernen Touch in Ihre Küche bringen.",
-  },
-  {
-    id: 9,
-    name: "Geschirrspüler",
-    image: "/images/geschirrspüler.jpg", // Ersetze dies durch das echte Bild
-    description: "Hightech-Geschirrspüler, die mit modernster Technologie ausgestattet sind, um Ihnen eine mühelose und effiziente Reinigung zu ermöglichen. Für glänzende Sauberkeit ohne Aufwand.",
-  },
-  {
-    id: 10,
-    name: "Steckdosen",
-    image: "/images/steckdosen.jpg", // Ersetze dies durch das echte Bild
-    description: "Hightech-Geschirrspüler, die mit modernster Technologie ausgestattet sind, um Ihnen eine mühelose und effiziente Reinigung zu ermöglichen. Für glänzende Sauberkeit ohne Aufwand.",
+    name: "BETON",
+    image: "/images/beton.png", 
+    description: "Beton und Holz – in Kombination mit Cover-Griffleiste",
   },
 ];
+
+
 
 
 export const ProductSlider = () => {
@@ -85,9 +63,9 @@ export const ProductSlider = () => {
   };
 
   return (
-    <section className="py-20 bg-gray-light" id="produkte">
+    <section className="py-20 bg-white" id="produkte">
       <div className="container mx-auto px-4 md:px-8">
-        <h2 className="text-4xl font-light text-center mb-12 uppercase">Produkte</h2>
+        <h2 className=" text-center mb-12 ">Produkte</h2>
         <div className="relative">
           <div className="flex gap-4 md:gap-8">
             {products
@@ -101,8 +79,8 @@ export const ProductSlider = () => {
                       className=""
                     />
                     <div className="p-6 md:p-8 text-center">
-                      <h3 className="text-xl lowercase font-[500] md:text-2xl mb-2">{product.name}</h3>
-                      <p className="text-gray mb-4">{product.description}</p>
+                      <h3 className=" mb-2">{product.name}</h3>
+                      <p className=" mb-4">{product.description}</p>
                     </div>
                   </div>
                 </div>

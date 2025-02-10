@@ -1,20 +1,18 @@
 export const CompanyIntro = () => {
   return (
-    <section className="py-20 bg-white" id="ueber-foster">
+    <section className="py-20 bg-white" id="ueber-wolter">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center">
-
           <img 
-            src="/images/fosterlogo.png" 
-            alt="Foster Spa Logo" 
-            className="h-10 w-auto"
+            src="/images/wf_logo.png" 
+            alt="Wolter Lackfronten Logo" 
+            className="h-20 w-auto"
           />
-          
         </div>
 
         <div className="mt-6 text-center">
-          <p className="text-gray text-lg leading-relaxed mb-6">
-            Foster ist eine italienische Marke, die weltweit in über 50 Ländern vertreten ist. Gegründet im Jahr 1973, steht Foster für höchste Handwerkskunst, modernes Design und eine starke Verbindung zur italienischen Tradition. Mit vier hochspezialisierten Produktionsstätten und einem integrierten Ansatz bietet Foster innovative Küchenlösungen, die Technologie, Nachhaltigkeit und Ästhetik vereinen.
+          <p className=" mb-6">
+            Seit über 50 Jahren fertigt Wolter Lackfronten hochwertige Lackoberflächen für Möbel und Innenausbau. In dritter Generation setzt das Unternehmen Maßstäbe in Qualität, Präzision und Design. Mit modernster Technik auf 3000 qm Produktionsfläche entstehen individuelle Lösungen – von Einzelstücken bis hin zur Serienfertigung. Durch jahrelange Erfahrung und enge Zusammenarbeit mit Industrie, Handwerk und Innenarchitekten garantiert Wolter höchste Flexibilität und exzellente Ergebnisse.
           </p>
         </div>
       </div>
