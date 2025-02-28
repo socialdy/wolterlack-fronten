@@ -12,11 +12,16 @@ export const AboutSection = () => {
     <section className="py-20">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div>
-            <video controls className="shadow-xl h-full w-full">
-              <source src="https://www.wolter-lackfronten.de/wp-content/uploads/2020/10/Wolter_Lackfronten_GmbH_Handwerker.mp4" type="video/mp4" />
-              Dein Browser unterstützt kein Video-Tag.
-            </video>
+          <div className="w-full">
+          <iframe
+                width="100%"
+              height="370"
+  src="https://www.youtube.com/embed/uEV559c8qzI"
+  title="YouTube Video"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
           </div>
           <div className="animate-fade-in">
             <h2 className="mb-6">Warum Wolter Lackfronten?</h2>
